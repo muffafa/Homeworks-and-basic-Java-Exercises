@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class enumber {
+public class Enumber {
 	public static double fact(int a) {
 	     if(a <= 1) {
 	    	 return 1;
