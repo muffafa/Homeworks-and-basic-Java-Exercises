@@ -1,7 +1,4 @@
 //sum of two cubes in exactly two different ways
-package quiz1;
-
-//sum of two cubes in exactly two different ways
 public class So2ci2dw{
 	public static int way1;
 	public static int way2;
