@@ -1,5 +1,8 @@
 //sum of two cubes in exactly two different ways
-public class So2ci2dw {
+package quiz1;
+
+//sum of two cubes in exactly two different ways
+public class So2ci2dw{
 	public static int way1;
 	public static int way2;
 	public static void main(String[] args) {
@@ -9,13 +12,13 @@ public class So2ci2dw {
 		
 		//System.out.println(d);
 		
-		for (d=4;d<=stop;d++) {
+		for (int d=4;d<=stop;d++) {
 			//System.out.print(d+" ");
-			for (c=3;c<d;c++){
+			for (int c=3;c<d;c++){
 				//System.out.print(c+" ");
-				for (b=2;b<=c;b++){
+				for (int b=2;b<=c;b++){
 					//System.out.print(b+" ");
-					for (a=1;a<b;a++){
+					for (int a=1;a<b;a++){
 						//System.out.println(a);
 						check(a,b,c,d);
 					}	
@@ -30,6 +33,6 @@ public class So2ci2dw {
 			way1 = w*w*w+z*z*z;
 			way2 = x*x*x+y*y*y;
 			System.out.printf("%d^3 + %d^3 = %d^3 + %d^3 = %d%n",w,z,x,y,way1);
-		}else;	
+		}	
 	}
 }
