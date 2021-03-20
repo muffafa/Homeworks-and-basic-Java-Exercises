@@ -5,15 +5,11 @@ public class So2ci2dw {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int a = 1;
-		int b = 2;
-		int c = 3;
-		int d = 4;
 		int stop = 100;
 		
 		//System.out.println(d);
 		
-		for (;d<=stop;d++) {
+		for (d=4;d<=stop;d++) {
 			//System.out.print(d+" ");
 			for (c=3;c<d;c++){
 				//System.out.print(c+" ");
