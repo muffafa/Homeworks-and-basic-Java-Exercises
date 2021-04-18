@@ -17,8 +17,6 @@ public class Tarih {
 			return -1;
 		}else if(obj.year == this.year && obj.month > this.month ) {
 			return-1;
-		} else if(obj.year == this.year && obj.month == this.month ) {
-			return -1;
 		}else if(obj.year == this.year && obj.month == this.month && obj.day > this.day ) {
 			return -1;
 		}else if(obj.year == this.year && obj.month == this.month && obj.day == this.day ) {
