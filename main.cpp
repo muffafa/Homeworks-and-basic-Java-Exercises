@@ -49,6 +49,8 @@ int main() {
 		}else if(op == '*'){
 			cout << "carpma islemi secildi\n";
 			printf("carpma isleminin sonucu : %d\n",carp(num1,num2));
+		}else{
+			cout << "gecersiz bir islem sectiniz\n";
 		}
 	}
 		
