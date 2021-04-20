@@ -26,24 +26,25 @@ int main() {
 		char op;
 		int num1, num2;
 		
-		cout << "islem yapmak icin ilk sayi\n";
+		cout << "islem yapmak icin ilk sayiyi griniz\n";
 		cin >> num1;
 		
-		cout << "islem yapmak icin ikinci sayi\n";
+		cout << "islem yapmak icin ikinci sayiyi giriniz\n";
 		cin >> num2;
 		
 		cout << "islem +=> Toplama islemi\n";
 		cout << "islem -=> cikarma islemi\n";
 		cout << "islem *=> carpma islemi\n";
 		
+		cout << "hangi islemi yapmak istiyorsunuz\n";
 		cin >> op;
 		
 		if(op == '+'){
 			cout << "toplama islemi secildi\n";
 			printf("toplama isleminin sonucu : %d\n",topla(num1,num2));
 		}else if(op == '-'){
-			cout << "cýkarma islemi secildi\n";
-			printf("cýkarma isleminin sonucu : %d\n",cikar(num1,num2));
+			cout << "cÄ±karma islemi secildi\n";
+			printf("cÄ±karma isleminin sonucu : %d\n",cikar(num1,num2));
 			
 		}else if(op == '*'){
 			cout << "carpma islemi secildi\n";
